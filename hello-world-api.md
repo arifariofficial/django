@@ -23,7 +23,6 @@ from rest_framework.response import Response
 
 class HelloWorldView(APIView):
     return Response({"message: "Hello, world!"})
-
 ```
 ## Create route
 ### myapp/urls.py
